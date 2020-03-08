@@ -1,0 +1,19 @@
+➜  ~ git:(master) ✗ cd sharezza-social
+➜  sharezza-social git:(master) ls
+README.md  index.html
+➜  sharezza-social git:(master) code .
+➜  sharezza-social git:(master) git add index.html
+➜  sharezza-social git:(master) ✗ git commit -m "Title replace and <h1> add"
+[master 705b51e] Title replace and <h1> add
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+➜  sharezza-social git:(master) git push origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 357 bytes | 357.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/helder-hanka/sharezza-social.git
+   aaca3ef..705b51e  master -> master
+➜  sharezza-social git:(master)
